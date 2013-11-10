@@ -8,3 +8,9 @@ tabla
  tabla$producto[duplicated(tabla$producto)]
  tabla2<- tabla[tabla$producto==1,]
 write.csv(file="tabla2.csv",x=tabla2)
+
+gasolData <- read.csv("./data/gasoline.csv",header=F,nrow=15)
+plot(gasolData$V2,gasolData$V3,type="l",xlim=c(0,15), ylim=c(0,15))
+lm(gasolData$V2~poly(gasolData$V3,))
+polinom <- poly(gasolData$V3,1)
+plot(polinom)
