@@ -4,3 +4,6 @@
 # Example code in package build process
 *-Ex.R
 .Rproj.user
+
+# CSV and other files (Heavy stuff!)
+plots/

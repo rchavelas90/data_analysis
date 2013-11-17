@@ -1,4 +1,3 @@
-## Load data set
 install.packages("kernlab")
 library(kernlab)
 data(spam)
