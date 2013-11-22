@@ -615,6 +615,7 @@ str(irisSubset)
 distIrisSubset <- dist(irisSubset)
 hclusteringIris <- hclust(distIrisSubset)
 plot(hclusteringIris)
+abline(3,0)
 plclust(hclusteringIris,hmin=3)
 
 ### Q4

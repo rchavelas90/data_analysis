@@ -7,3 +7,5 @@
 
 # CSV and other files (Heavy stuff!)
 plots/
+*.png
+

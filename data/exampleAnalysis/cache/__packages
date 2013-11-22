@@ -1,0 +1,13 @@
+base
+datasets
+Formula
+graphics
+grDevices
+Hmisc
+knitr
+maps
+methods
+splines
+stats
+survival
+utils
